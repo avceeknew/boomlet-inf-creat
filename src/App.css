@@ -3,12 +3,15 @@
 .NavbarHeader{
   position:fixed;
   margin-left: 17em;
-  margin-top: 0em;
-  height: 6em;
+  margin-top: -3em;
+  height: auto;
   box-shadow: -44px 46px 24px -53px rgba(0,0,0,0.18);
   z-index:9999;
   background-color:#fff;
   width: 80em;
+  padding-top:8em;
+  padding-bottom: 0.3em;
+  padding-left:3em;
 }
 
 .NavbarButton1{
@@ -16,7 +19,7 @@
   border: 1px solid red;
   color: red;
   height: 30px;
-  top:5em;
+  top:9em;
   width: 60px;
   border-radius: 4px;
   position : absolute;
@@ -29,7 +32,7 @@
   background-color: white;
   border: 1px solid blue;
   color: blue;
-  top:5em;
+  top:9em;
   height: 30px;
   width: 60px;
   border-radius: 4px;
@@ -40,8 +43,8 @@
 }
 
 .Navbar{
-  margin-left: 8em;
-  margin-top: -1em;
+  margin-left: 9em;
+  margin-top: 2.5em;
 }
 
 p{
@@ -54,6 +57,7 @@ p{
   width: 70em;
   border-radius : 5px;
   margin-left:17em;
+  margin-top: 10.5em;
 }
 
 
@@ -416,11 +420,29 @@ input{
 }
 
 .img2{
-  position:fixed;
-  top:0%;
-  z-index:999999;
+  z-index:9000;
+  height:1.2em;
+  width:2em;
+  margin-top:0.3em;
+  margin-left: -0.5em;
 }
 
 .linkedin{
   margin-left:-19em;
+}
+
+.influencer,.overview,.campaign{
+  position:absolute;
+  height:1.2em;
+  width: 1.2em;
+  margin-left:-2em;
+  margin-top: 0.4em;
+}
+
+.header{
+  background-color: white;
+  position: fixed;
+  height: auto;
+  z-index:9000;
+  top:0em;
 }

@@ -1,25 +1,32 @@
 import React from 'react';
-import nav from './nav.png';
-import navhead from './navhead.png';
+import head from './head.png';
+import campaign from './campaign.png';
+import overview from './overview.png';
+import influencer from './influencer.png';
+import arrow from './arrow.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <div class="header">
       <div class="heading">
-        <h1>.</h1>
+        <img src={head} class="boomhead"/>
       </div>
         <div class="NavbarHeader">
-          <img src={navhead} class="img2"/>
+          <img src={arrow} class="img2"/>
              Create Influencer
             <button class="NavbarButton1">Delete</button>
             <button class="NavbarButton2">Save</button>
         </div>
         <div class="Navbar">
-          <img src={nav} class="img1"/>
-             <p>.</p><br/>
-             <p>.<br/></p><br/>
-             <p>.</p>
+          <img src={campaign} class="campaign"/>
+             <p>OVERVIEW</p><br/>
+             <img src={overview} class="overview"/>
+             <p>CAMPAIGN<br/></p><br/>
+             <img src={influencer} class="influencer"/>
+             <p>INFLUENCER</p>
+        </div>
         </div>
         <div class="main">
              <h1 class="heading1">Basic Details</h1>
