@@ -11,6 +11,7 @@
   padding-bottom: 0.3em;
   padding-left:3em;
   padding-right:3em;
+  position: absolute;
 }
 
 .NavbarButton1{
@@ -21,7 +22,7 @@
   top:9em;
   width: 60px;
   border-radius: 4px;
-  margin-left: 50%;
+  margin-left: 50em;
   z-index:99999999;
   cursor: pointer;
 }
@@ -43,6 +44,8 @@
 .Navbar{
   margin-left: 9em;
   margin-top: 2.5em;
+  width: 20%;
+  float:left;
 }
 
 p{
@@ -65,9 +68,8 @@ p{
 }
 
 
-input{
+input[type=text],input[type=textbox]{
   border:0;
-  position: absolute;
   width: 17em;
   font-size: 1rem;
   color: black;
@@ -79,6 +81,7 @@ input{
   padding-bottom: 0.5px;
   padding-left: 18px;
   height: 35px;
+  margin-left: 0.6em;
 }
 
 #l1{
@@ -87,6 +90,7 @@ input{
   opacity:0.5;
   top: 20.3em;
   left: 25.8em;
+  overflow:visible;
 }
 
 .l2{
@@ -94,7 +98,7 @@ input{
 }
 
 .b2{
-  left: 48em;
+  margin-left: 7.7em!important;
 }
 
 .l3{
@@ -102,7 +106,7 @@ input{
 }
 
 .b3{
-  left: 75em;
+  margin-left: 7.7em!important;
 }
 
 .l4{
@@ -110,7 +114,7 @@ input{
 }
 
 .b4{
-  top: 23em;
+  margin-top: 2em;
 }
 
 .l5{
@@ -120,7 +124,7 @@ input{
 
 .b5{
   top: 23em;
-  left: 48em;
+  margin-left: 7.7em!important;
 }
 
 .l6{
@@ -130,12 +134,11 @@ input{
 
 .b6{
   top: 23em;
-  left: 75em;
+  margin-left: 7.7em!important;
 }
 
 .piclabel{
-  position: relative;
-  top: 12em;
+  margin-top: 1em;
   font-size: 1rem;
 }
 
@@ -143,7 +146,7 @@ input{
   border-radius : 2em; 
   border: 1px dashed black;
   width: 9em;
-  margin-top: 13em;
+  margin-top: 1em;
   padding :5em;
   text-align: center;
 
@@ -154,37 +157,13 @@ input{
   font-size: 2em;
 }
 
-.g1{
-  margin-top: 4em;
-  margin-left: 2em;
+.g1,.g2,.g3{
+  margin-left: 0.4em;
+  margin-right: 1.4em;
 }
-
-.g2{
-  margin-left: 3em;
-}
-
-.g3{
-  margin-left: 3em;
-}
-
-.r1{
+.r1,.r2,.r3,.r4{
   color: blue;
   background-color: blue;
-}
-.r2{
-  margin-left: 1.3em;
-  color: blue;
-  background-color: blue;
-}
-
-.r3{
-  margin-left: 1.5em;
-  color: blue;
-  background-color: blue;
-}
-
-.r4{
-  margin-left: 1.5em;
 }
 
 .IT{
@@ -192,41 +171,34 @@ input{
   margin-left: 35em;
 }
 
-.s1{
-  width: 70em;
-}
-.s2{
-  width: 70em;
-}
-.s3{
-  width: 70em;
-}
-.s4{
-  width: 70em;
+
+.s1,.s2,.s3,.s4{
+  margin-top:-2em;
+  width: 70em!important;
 }
 
 .s5{
-  height: 5.5em;
-  width: 70em;
+  height: 5.5em!important;
+  width: 70em!important;
 }
 
 .sl1{
-  margin-top: 45em;
+  margin-top: 39.8em;
   z-index:1000;
 }
 
 .sl2{
-  margin-top: 51.5em;
+  margin-top: 47.5em;
   z-index:1000;
 }
 
 .sl3{
-  margin-top: 58.5em;
+  margin-top: 55em;
   z-index:1000;
 }
 
 .sl4{
-  margin-top: 65.4em;
+  margin-top: 62.5em;
   z-index:1000;
 }
 
@@ -235,8 +207,8 @@ input{
 }
 
 .social1{
-  margin-top:9em;
-  margin-left:22em;
+  margin-top:2em;
+  margin-left:3em;
 }
 
 .container {
@@ -309,95 +281,93 @@ input{
 }
 
 .ct1{
-  margin-left: 30em;
-  margin-top:  -2em;
+  margin-left: 49em;
+  margin-top:  -2.5em;
 }
 
 .ct2{
   margin-top:  -1.4em;
-  margin-left: 40em;
+  margin-left: 58em;
 }
 
 .linkb1{
-  margin-left: -22em;
+ margin-left: -0.5em!important;
 }
 
-.linkl1{
-  margin-top: 86.5em;
+.linkl1,.linkl2,.linkl3{
+  margin-top: 84em;
 }
-
-.linkl2{
-  margin-top: 86.5em;
-}
-
-.linkl3{
-  margin-top: 86.5em;
-}
-
 .social6{
   margin-bottom: 20em;
 }
 
 .instb4{
-  margin-top: 90em;
-  margin-left: -22em;
+  position: absolute;
+  margin-top: 5em!important;
+  margin-left: -72.7em!important;
 }
 
 .instb5{
-  margin-top: 90em;
+  position: absolute;
+  margin-top: 83.2em!important;
+  margin-left: -45.7em!important;
 }
 
 .inst1,.inst2,.inst3{
-  margin-top:102em;
+  margin-top:94em;
   z-index:1000;
 }
 
 .inst4,.inst5{
-  margin-top:101em;
+  margin-top:93.5em;
   z-index:1000;
 }
 
 .blog1,.blog2,.blog3{
-  margin-top: 121.6em;
+  margin-top: 108.5em;
+  z-index:1000;
 }
 
 .twit1,.twit2,.twit3{
-  margin-top: 137em;
+  margin-top: 118.5em;
+  z-index:1000;
 }
 
 .faceb4{
-  margin-top:135em;
-  z-index:100;
-  margin-left: -22em;
+  position:absolute;
+  margin-top:5.5em!important;
+  margin-left: -72.7em!important;
 }
 
 .faceb5{
-  margin-top:135em;
-  z-index:100;
+  position:absolute;
+  margin-top:114em!important;
+  margin-left: -46em!important;
 
 }
 
 .face1,.face2,.face3{
-  margin-top: 152.6em;
+  margin-top: 128.3em;
 }
 
 .face4,.face5{
-  margin-top:151.5em;
+  margin-top:128.3em;
   z-index:100;
 }
 
 .tktk1,.tktk2,.tktk3{
-  margin-top:168em;
+  margin-top:143em;
   z-index:100;
 }
 
 .tktk4{
-  margin-top:167.6em;
+  margin-top:142.6em;
 }
 
 .tktkb4{
-  margin-top:149em;
-  margin-left: -22em;
+  position:absolute;
+  margin-top:5em!important;
+  margin-left: -72.5em!important;
 }
 
 .r1,.r2,.r3,.r4{
@@ -426,7 +396,8 @@ input{
 }
 
 .linkedin{
-  margin-left:-19em;
+ /* margin-top: -7em;
+  margin-left:-19em;*/
 }
 
 .influencer,.overview,.campaign{
@@ -443,4 +414,16 @@ input{
   height: auto;
   z-index:9000;
   top:0em;
+}
+
+@media only screen and (max-width: 1100px) {
+  .NavbarButton1{
+     margin-left: 27em!important;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .NavbarButton1{
+     margin-left: 45em;
+  }
 }
