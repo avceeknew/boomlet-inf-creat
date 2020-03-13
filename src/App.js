@@ -33,9 +33,9 @@ function App() {
              <div class="InfluencerName">
          <input type="text" class="b1"/>
          <label id="l1" class="l1">Influencer Name</label>
-         <input type="selection" class="b2"/>
+         <input type="text" class="b2"/>
          <label id="l1" class="l2">Gender</label>
-         <input type="email" class="b3"/>
+         <input type="text" class="b3"/>
          <label id="l1" class="l3">Email</label>
          <input type="text" class="b4"/>
          <label id="l1" class="l4">Influencer type</label>
@@ -160,7 +160,7 @@ function App() {
          <label id="l1" class="l4  face4">Story Cost(in Rs.)</label>
          <input type="text" class="b5 faceb5"/>
          <label id="l1" class="l5  face5">Post Cost(in Rs.)</label>
-        </div>
+        </div><br/><br/><br/>
         <div class="social1 social6">
           <h4 class="linkedin">Tiktok Details</h4>
           <label class="container ct1">Verified
