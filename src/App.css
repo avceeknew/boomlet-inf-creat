@@ -88,13 +88,13 @@ input[type=text],input[type=textbox]{
   position: absolute;
   font-size: 0.8em;
   opacity:0.5;
-  top: 20.3em;
-  left: 25.8em;
+  margin-top: 0.5em;
+  margin-left: -20em;
   overflow:visible;
 }
 
 .l2{
-  left: 55.8em!important;
+  margin-left: 1em;
 }
 
 .b2{
@@ -102,7 +102,7 @@ input[type=text],input[type=textbox]{
 }
 
 .l3{
-  left: 86em!important;
+  margin-left: 1em;
 }
 
 .b3{
@@ -110,7 +110,7 @@ input[type=text],input[type=textbox]{
 }
 
 .l4{
-  top: 26.4em!important;
+  margin-top: 2.5em!important;
 }
 
 .b4{
@@ -118,22 +118,20 @@ input[type=text],input[type=textbox]{
 }
 
 .l5{
-  top: 26.4em!important;
-  left: 55.8em!important;
+  margin-top: 2.5em!important;
 }
 
 .b5{
-  top: 23em;
+  margin-top: 2em;
   margin-left: 7.7em!important;
 }
 
 .l6{
-  top: 26.4em!important;
-  left: 86em!important;
+  margin-top: 2.5em!important;
 }
 
 .b6{
-  top: 23em;
+  margin-top: 2em;
   margin-left: 7.7em!important;
 }
 
@@ -182,28 +180,16 @@ input[type=text],input[type=textbox]{
   width: 70em!important;
 }
 
-.sl1{
-  margin-top: 39.8em;
-  z-index:1000;
-}
-
-.sl2{
-  margin-top: 47.5em;
-  z-index:1000;
-}
-
-.sl3{
-  margin-top: 55em;
-  z-index:1000;
-}
-
-.sl4{
-  margin-top: 62.5em;
+.sl1,.sl2,.sl3,.sl4{
+  margin-top: -0.5em!important;
+  margin-left: -80em!important;
   z-index:1000;
 }
 
 .sl5{
-  margin-top: 72em;
+  margin-top: 1em!important;
+  margin-left: -80em!important;
+  z-index:1000;
 }
 
 .social1{
@@ -309,7 +295,7 @@ input[type=text],input[type=textbox]{
 
 .instb5{
   position: absolute;
-  margin-top: 83.2em!important;
+  margin-top: 5em!important;
   margin-left: -45.7em!important;
 }
 
@@ -318,8 +304,14 @@ input[type=text],input[type=textbox]{
   z-index:1000;
 }
 
-.inst4,.inst5{
-  margin-top:93.5em;
+.inst4{
+  margin-top:6em!important;
+  margin-left: -80.5em!important;
+  z-index:1000;
+}
+.inst5{
+  margin-top:6em!important;
+  margin-left: -50.5em!important;
   z-index:1000;
 }
 
@@ -335,13 +327,13 @@ input[type=text],input[type=textbox]{
 
 .faceb4{
   position:absolute;
-  margin-top:5.5em!important;
+  margin-top:5em!important;
   margin-left: -72.7em!important;
 }
 
 .faceb5{
   position:absolute;
-  margin-top:114em!important;
+  margin-top:5em!important;
   margin-left: -46em!important;
 
 }
@@ -350,18 +342,26 @@ input[type=text],input[type=textbox]{
   margin-top: 128.3em;
 }
 
-.face4,.face5{
-  margin-top:128.3em;
+.face4{
+  margin-top: 6em!important;
+  margin-left:-81em!important;
+  z-index:100;
+}
+
+.face5{
+  margin-top: 6em!important;
+  margin-left:-50em!important;
   z-index:100;
 }
 
 .tktk1,.tktk2,.tktk3{
-  margin-top:143em;
+  margin-top:120.5%;
   z-index:100;
 }
 
 .tktk4{
-  margin-top:142.6em;
+  margin-top:6em!important;
+  margin-left:-81em!important;
 }
 
 .tktkb4{
@@ -418,7 +418,7 @@ input[type=text],input[type=textbox]{
 
 @media only screen and (max-width: 1100px) {
   .NavbarButton1{
-     margin-left: 27em!important;
+     margin-left: 27 em!important;
   }
 }
 
